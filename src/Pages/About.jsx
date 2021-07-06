@@ -12,7 +12,7 @@ import { Div, Line } from "./commonStyle";
 //  Component
 import { useScroll } from "../components/useScroll";
 // Image
-import Pic1 from "../assets/Pic1.jpg";
+import Pic1 from "../assets/profile.jpg";
 
 const About = () => {
   const [element, controls] = useScroll();
@@ -31,12 +31,11 @@ const About = () => {
       <AboutContainer>
         <Img variants={RevealAnim} src={Pic1} alt="profile" />
         <motion.p variants={fadeRightAnim}>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-          odio, ipsum quo, dolore enim dolorem similique laboriosam laudantium
-          tempora saepe, iusto vitae earum dicta aspernatur ex reiciendis nemo
-          cum! Ipsum. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Excepturi architecto numquam illum ea voluptas quod recusandae dolor
-          tempora, consequatur voluptatem!
+        <h3>I am Anshika Sethiya</h3>
+        <br/>
+        I am Full Stack Developer and student , pursing my degree of B.Tech in Computer Science from SVVV,Indore.
+        I am beginner developer and passionate to work as Software developer in IT industry with my technical skills to contribute in 
+        orgranisation's growth.
         </motion.p>
       </AboutContainer>
     </StyledAbout>

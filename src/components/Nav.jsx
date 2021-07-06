@@ -5,13 +5,15 @@ import { motion } from "framer-motion";
 import styled from "styled-components";
 import { Colors } from "../Pages/commonStyle";
 
+import logo from '../assets/linkedin_banner_image_1.png'
+
 const Nav = ({ setDarkMode, darkMode }) => {
   // state to toggle navbar in small screen devices
   const [menuToggle, setMenuToggle] = useState(false);
   return (
     <StyledNav darkMode={darkMode}>
       <div className="logo">
-        <h4>Portfolio</h4>
+        <h4><img src={logo} alt="logo" style={{width:'10rem',height:'4rem'}}/></h4>
       </div>
 
       <Bars className="bars" onClick={() => setMenuToggle(!menuToggle)}>

@@ -18,29 +18,17 @@ const Footer = () => {
             <i className="fab fa-instagram"></i>
           </a>
           <a href="/">
-            <i className="fab fa-youtube"></i>
-          </a>
-          <a href="/">
             <i className="fab fa-linkedin-in"></i>
-          </a>
-          <a href="/">
-            <i className="fab fa-twitter-square"></i>
           </a>
         </Icons>
         <hr />
         <p>
           © 2021 - Template by{" "}
-          <a href="https://github.com/codebyvik">codebyvik</a>
+          <a href="https://github.com/AnshikaSethiya">Anshika Sethiya</a>
         </p>
         <Github>
           <button>
-            <a href="https://github.com/codebyvik/ReactFolio/fork">
-              <i class="fas fa-code-branch"></i>
-              Fork
-            </a>
-          </button>
-          <button>
-            <a href="https://github.com/codebyvik/ReactFolio">
+            <a href="https://github.com/AnshikaSethiya/Portfolio">
               <i class="far fa-star"></i>
               Star
             </a>
