@@ -33,10 +33,10 @@ const ProjectDetails = ({ Project, setProject, darkMode }) => {
           <Line />
         </Title>
         <div>
-          <a className="a-btn" href="/">
+          <a className="a-btn" href={Project[0].githubLink} target="_blank" rel="noreferrer">
             Github
           </a>
-          <a className="a-btn" href="/">
+          <a className="a-btn" href={Project[0].LiveUrl} target="_blank" rel="noreferrer">
             Live
           </a>
         </div>

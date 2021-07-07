@@ -24,13 +24,12 @@ const Skills = () => {
       id="about"
     >
 
+    <SkillsContainer>
+    <Div class="skills" id="Skills" variants={RevealAnim} >
     <div>
         <h3>Skills</h3>
         <Line variants={LineAnim} />
     </div>
-
-    <SkillsContainer>
-    <Div class="skills" id="Skills" variants={RevealAnim} >
     <motion.p variants={fadeRightAnim}>
       <div className="skill_box">
         <div className="box">
