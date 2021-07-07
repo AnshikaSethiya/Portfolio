@@ -8,16 +8,16 @@ const Footer = () => {
     <StyledFooter>
       <FooterContainer>
         <Icons>
-          <a href="/">
+          <a href="https://github.com/AnshikaSethiya">
             <i className="fab fa-github"></i>
           </a>
-          <a href="/">
+          <a href="https://www.facebook.com/anshika.sethiya">
             <i className="fab fa-facebook"></i>
           </a>
           <a href="/">
             <i className="fab fa-instagram"></i>
           </a>
-          <a href="/">
+          <a href="www.linkedin.com/in/anshika-sethiya28">
             <i className="fab fa-linkedin-in"></i>
           </a>
         </Icons>

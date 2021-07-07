@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Nav from "./components/Nav";
 import Welcome from "./Pages/Welcome";
 import About from "./Pages/About";
+import Skills from './Pages/Skills'
 import Project from "./Pages/Project";
 import Contact from "./Pages/Contact";
 import Footer from "./components/footer";
@@ -48,6 +49,7 @@ function App() {
       <Nav setDarkMode={setDarkMode} darkMode={darkMode} />
       <Welcome />
       <About />
+      <Skills />
       <Project darkMode={darkMode} />
       <Contact darkMode={darkMode} />
       <Footer />

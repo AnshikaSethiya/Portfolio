@@ -33,6 +33,9 @@ const Nav = ({ setDarkMode, darkMode }) => {
             <a href="#about">ABOUT</a>
           </li>
           <li>
+            <a href="#skills">SKILLS</a>
+          </li>
+          <li>
             <a href="#project">PROJECT</a>
           </li>
           <li>

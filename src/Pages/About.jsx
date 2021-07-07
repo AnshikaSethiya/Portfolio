@@ -54,7 +54,7 @@ const AboutContainer = styled(motion.div)`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10rem;
+  margin-top:5rem;
   p {
     flex: 7;
     flex-wrap: wrap;

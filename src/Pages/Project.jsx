@@ -9,7 +9,7 @@ import { useScroll } from "../components/useScroll";
 import ProjectDetails from "./ProjectDetails";
 // styles
 import styled from "styled-components";
-import { Div, Line } from "./commonStyle";
+import { Line } from "./commonStyle";
 
 const Project = ({ darkMode }) => {
   // all projects
@@ -49,6 +49,7 @@ const Project = ({ darkMode }) => {
               image={data.DisplayImage}
               title={data.title}
               id={data.id}
+              url={data.githubLink}
               setProject={setProject}
               Data={Data}
             />
@@ -65,7 +66,7 @@ const StyledProject = styled(motion.div)`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 4.5rem 1rem 0rem 1rem;
+  padding: 3.5rem 1rem 0rem 1rem;
   div {
     margin-bottom: 1rem;
   }
