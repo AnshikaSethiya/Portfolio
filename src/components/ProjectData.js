@@ -14,6 +14,10 @@ import grid4 from '../assets/chat-app2.JPG';
 import grid5 from '../assets/chat-app3.JPG'
 import grid6 from '../assets/chat-app4.JPG'
 
+import Project4 from '../assets/portfolio1.JPG'
+import grid7 from '../assets/portfolio2.JPG'
+import grid8 from '../assets/portfolio3.JPG'
+import grid9 from '../assets/portfolio4.JPG'
 
 export const ProjectData = () => {
   return [
@@ -50,38 +54,12 @@ export const ProjectData = () => {
     },
     {
       id: 4,
-      title: "Project 4",
-      DisplayImage: Project1,
-      Description: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-          odio, ipsum quo, dolore enim dolorem similique laboriosam laudantium
-          tempora saepe, iusto vitae earum dicta aspernatur ex reiciendis nemo
-          cum! Ipsum. Lorem ipsum, `,
-      screenshots: [Sc1, Sc2, Sc3],
-      githubLink: "#",
-      LiveUrl: "#",
-    },
-    {
-      id: 5,
-      title: "Project 5",
-      DisplayImage: Project1,
-      Description: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-          odio, ipsum quo, dolore enim dolorem similique laboriosam laudantium
-          tempora saepe, iusto vitae earum dicta aspernatur ex reiciendis nemo
-          cum! Ipsum. Lorem ipsum, `,
-      screenshots: [Sc1, Sc2, Sc3],
-      githubLink: "#",
-      LiveUrl: "#",
-    },
-    {
-      id: 6,
-      title: "Project 6",
-      DisplayImage: Project2,
-      Description: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-          odio, ipsum quo, dolore enim dolorem similique laboriosam laudantium
-          tempora saepe, iusto vitae earum dicta aspernatur ex reiciendis nemo
-          cum! Ipsum. Lorem ipsum, `,
-      screenshots: [Sc1, Sc2, Sc3],
-      githubLink: "#",
+      title: "Portfolio",
+      DisplayImage: Project4,
+      Description: `I have created this portfolio using react which contains all my skills and my projects with their screenshots and 
+              github links as well as their live links.`,
+      screenshots: [grid7, grid8, grid9],
+      githubLink: "https://github.com/AnshikaSethiya/Portfolio",
       LiveUrl: "#",
     }
   ];
